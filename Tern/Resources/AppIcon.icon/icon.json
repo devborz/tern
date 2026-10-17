@@ -14,7 +14,14 @@
           ],
           "image-name" : "el-2.svg",
           "name" : "el-2",
-          "opacity" : 0.6
+          "opacity" : 0.6,
+          "position" : {
+            "scale" : 0.8,
+            "translation-in-points" : [
+              -156,
+              -129
+            ]
+          }
         }
       ],
       "shadow" : {
@@ -30,7 +37,15 @@
       "layers" : [
         {
           "image-name" : "el-1 2.svg",
-          "name" : "el-1 2"
+          "name" : "el-1 2",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 0.8,
+            "translation-in-points" : [
+              -124,
+              -144
+            ]
+          }
         }
       ],
       "shadow" : {
