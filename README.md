@@ -86,7 +86,8 @@ Tern/
 ├── Commands/          CommandExecution, CommandTracker, CommandStatusLine
 ├── Views/             TerminalHostView (NSViewRepresentable), CommandHistoryView,
 │                      CommandStatusView + CopyOutputButton (the status over the status line)
-└── Settings/          TerminalSettings (UserDefaults), SettingsView
+├── Settings/          TerminalSettings (UserDefaults), SettingsView
+└── Resources/         AppIcon.icon — the app icon (Icon Composer; actool builds it)
 ```
 
 Data flow:
