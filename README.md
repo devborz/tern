@@ -134,3 +134,13 @@ Key decisions:
 - The command history is kept in memory, for the lifetime of the tab.
 - The status text is not part of the buffer: it is not copied with selected text and not found by ⌘F.
   After `clear`/`reset` no status line is written.
+
+## License
+
+[MIT](LICENSE).
+
+Third-party code, also MIT:
+
+- [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm) — the terminal emulator, added through Swift Package Manager.
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) 0.7.1 —
+  `Tern/ShellIntegration/zsh-autosuggestions.zsh`, with the license text in the file header.
